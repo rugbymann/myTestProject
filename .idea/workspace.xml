@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e58a4009-0468-48c9-b13d-335709e72f6c" name="Changes" comment="" />
+    <list default="true" id="e58a4009-0468-48c9-b13d-335709e72f6c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +18,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2UOt5yQEQNZVtvbJcWXI4wPOKV6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,9 +42,76 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.LifeTwigTest.LifeTwigTest">
+    <configuration name="LifeTwigTest.LifeTwigTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myTestProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.qa2526.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.qa2526" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.LifeTwigTest" />
+      <option name="METHOD_NAME" value="LifeTwigTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenSiteTest.openGoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myTestProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.qa2526.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.qa2526" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.OpenSiteTest" />
+      <option name="METHOD_NAME" value="openGoogleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenSiteTest.openLifetwigTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myTestProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.qa2526.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.qa2526" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.OpenSiteTest" />
+      <option name="METHOD_NAME" value="openLifetwigTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LifeTwigTest.LifeTwigTest" />
+        <item itemvalue="TestNG.OpenSiteTest.openGoogleTest" />
+        <item itemvalue="TestNG.OpenSiteTest.openLifetwigTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

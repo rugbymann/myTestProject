@@ -19,7 +19,7 @@ public class LifeTwigTest {
     }
     @Test
     public void LifeTwigTest(){
-        System.out.println("Site opened");
+        System.out.println("it's work");
     }
     @AfterMethod
     public void tearDown(){

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e58a4009-0468-48c9-b13d-335709e72f6c" name="Changes" comment="update" />
+    <list default="true" id="e58a4009-0468-48c9-b13d-335709e72f6c" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/LifeTwigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/LifeTwigTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,8 +155,26 @@
       <option name="project" value="LOCAL" />
       <updated>1692860299989</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1692860348574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692860348574</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add test lifetwig" />

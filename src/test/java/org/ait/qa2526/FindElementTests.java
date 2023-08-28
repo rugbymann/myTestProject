@@ -74,6 +74,12 @@ public class FindElementTests {
         //text - > xpath
         driver.findElement(By.xpath("//h2[contains(text(),'Type your data and hit Yalla!')]"));
     }
+
+    @Test
+    public void findNewElementsTest(){
+        driver.findElement(By.cssSelector("#dialog-notifications-success"));
+    }
+
     @AfterMethod
     public void tearDown(){
         driver.quit();

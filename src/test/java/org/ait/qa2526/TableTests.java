@@ -30,13 +30,13 @@ public class TableTests {
         System.out.println("====================================");
         for (int i = 0; i < tr.size(); i++) {
             System.out.println(tr.get(i).getText());
-            System.out.println("================================");
+            System.out.println("==============================");
         }
 
         //numbers of columns
         List<WebElement> columns = driver.findElements(By.cssSelector("tr th"));
         System.out.println("Columns in tables --> " + columns.size());
-        System.out.println("========================================");
+        System.out.println("=======================================");
 
         //print row 3
         List<WebElement> row3 = driver.findElements(By.cssSelector("tr:nth-child(3) td"));

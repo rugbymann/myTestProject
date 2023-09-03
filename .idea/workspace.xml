@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e58a4009-0468-48c9-b13d-335709e72f6c" name="Changes" comment="add new test">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/TableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/TableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/DemoWebShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/DemoWebShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/LifeTwigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/qa2526/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myTestProject" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,19 +76,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/orxanaliyev/Documents/JavaProgramming/Projects/Test Projects/myTestProject",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/orxanaliyev/Documents/JavaProgramming/Projects/Test Projects/myTestProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.FindElementTests.findElementTest">
-    <configuration name="DemoWebShop.DemoChroPathTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.AddToCardTests.addNewItemTests">
+    <configuration name="AddToCardTests.addNewItemTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myTestProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.qa2526.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.qa2526" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.AddToCardTests" />
+      <option name="METHOD_NAME" value="addNewItemTests" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewUserTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myTestProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.qa2526.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.qa2526" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.CreateNewUserTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoWebShop.isLoginElementPresent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myTestProject.test" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +133,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.ait.qa2526" />
       <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.DemoWebShop" />
-      <option name="METHOD_NAME" value="DemoChroPathTest" />
+      <option name="METHOD_NAME" value="isLoginElementPresent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoWebShop.findElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.LoginButtonPresent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myTestProject.test" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +150,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.ait.qa2526" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.DemoWebShop" />
-      <option name="METHOD_NAME" value="findElementsTest" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.LoginTests" />
+      <option name="METHOD_NAME" value="LoginButtonPresent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElementTests.findElementTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myTestProject.test" />
       <extension name="coverage">
         <pattern>
@@ -115,44 +168,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.ait.qa2526" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.FindElementTests" />
-      <option name="METHOD_NAME" value="findElementTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TableTests.tableByCssTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myTestProject.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ait.qa25.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ait.qa25" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.qa25.TableTests" />
-      <option name="METHOD_NAME" value="tableByCssTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TableTests.tableXpathTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myTestProject.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ait.qa25.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ait.qa25" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.qa25.TableTests" />
-      <option name="METHOD_NAME" value="tableXpathTest" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.qa2526.LoginTests" />
+      <option name="METHOD_NAME" value="LoginTests" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FindElementTests.findElementTest" />
-        <item itemvalue="TestNG.TableTests.tableByCssTest (1)" />
-        <item itemvalue="TestNG.DemoWebShop.DemoChroPathTest" />
-        <item itemvalue="TestNG.DemoWebShop.findElementsTest" />
-        <item itemvalue="TestNG.TableTests.tableXpathTest (1)" />
+        <item itemvalue="TestNG.AddToCardTests.addNewItemTests" />
+        <item itemvalue="TestNG.LoginTests.LoginTests" />
+        <item itemvalue="TestNG.CreateNewUserTests" />
+        <item itemvalue="TestNG.DemoWebShop.isLoginElementPresent" />
+        <item itemvalue="TestNG.LoginTests.LoginButtonPresent" />
       </list>
     </recent_temporary>
   </component>

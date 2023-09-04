@@ -23,4 +23,15 @@ public class TestBase {
     public boolean isElementPresent(By locator) {
         return true;
     }
+
+    public boolean isUserLogged(By xpath) {
+        return true;
+    }
+
+    public boolean isQuantityInCart(By xpath){
+        return true;
+
+
+    }
 }
+

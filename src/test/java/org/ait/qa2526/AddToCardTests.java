@@ -1,6 +1,7 @@
 package org.ait.qa2526;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -17,5 +18,8 @@ public class AddToCardTests extends TestBase{
             e.printStackTrace();
         }
         driver.findElement(By.xpath("//span[contains(text(),'Shopping cart')]")).click();
+
+        Assert.assertTrue(isQuantityInCart(By.xpath("//tbody/tr[2]/td[5]/input[1]")));
     }
+
 }
